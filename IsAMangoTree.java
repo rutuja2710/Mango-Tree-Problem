@@ -11,7 +11,7 @@ public class IsAMangoTree {
         System.out.println("enter number of columns in rectangle garden - ");
         int columns = scanner.nextInt();
 
-        System.out.println("enter number of tree to check mango tree or not - ");
+        System.out.println("enter number of tree to check if it is a mango tree or not - ");
         int treeNumber = scanner.nextInt();
 
         if(treeNumber<0 || treeNumber<=rows*columns) {
@@ -24,6 +24,6 @@ public class IsAMangoTree {
                 System.out.println("NO! It is not a mango tree.");
         }
         else
-            System.out.println("Tree with entered number does not exit !");
+            System.out.println("Tree with entered number does not exist !");
     }
 }
